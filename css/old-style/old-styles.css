@@ -1,53 +1,3 @@
-body {
-    font-family: "Roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-img {
-    display: block;
-}
-
-button {
-    cursor: pointer;
-}
-
-.header {
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-
 header .container {
     display: flex;
     justify-content: space-between;
@@ -164,19 +114,6 @@ header .container {
     color: #404bbf;
 }
 
-.button-line {
-    padding: 0;
-    border: none;
-    background-color: transparent;
-    display: none;
-}
-
-.icon-line {
-    display: block;
-    fill: #2f2f37;
-}
-
-/* ------------------------------------HERO----------------------------- */
 .hero {
     max-width: 1440px;
     padding: 188px 0;
@@ -979,10 +916,6 @@ footer a {
         display: none;
     }
 
-    .button-line {
-        display: block;
-    }
-
     .hero {
         max-width: 767px;
         min-width: 320px;
@@ -1301,15 +1234,9 @@ footer a {
     min-width: 100%;
 
     padding: 72px 24px 40px 16px;
-
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-
-    transition: opacity 250ms cubic-bezier(04, 0, 0.2, 1), visibility 250ms cubic-bezier(04, 0, 0.2, 1);
 }
 
-.header-menu-mobile.is-open .heder-nav-mobile {
+.heder-nav-mobile {
     margin-bottom: 168px;
 }
 
@@ -1378,7 +1305,3 @@ footer a {
 
 
 /* --------------------------------------MODAL-MOBILE--------------------------------------- */
-
-.close {
-    display: none;
-}
