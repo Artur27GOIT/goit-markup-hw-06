@@ -345,7 +345,7 @@ screen and (-webkit-min-device-pixel-ratio: 2) {
         .hero {
             background-image:
                 linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-                url("../images/dark-bg-mobile@2x.png");
+                url("../images/dark-bg-tablet@2x.png");
         }
     }
 
