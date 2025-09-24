@@ -278,9 +278,6 @@ header .container {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-mobile.png);
 }
 
-.hero {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-mobile@2x.png);
-}
 
 @media screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx),
