@@ -347,6 +347,7 @@ screen and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .hero-title {
+        max-width: 496px;
         font-weight: 700;
         font-size: 56px;
     }
